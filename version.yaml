@@ -1,0 +1,23 @@
+apiVersion: versionlens.com/v1
+kind: Version
+
+# k8s metadata
+metadata:
+  name: version-lens--main--copper-alien
+
+# need to have metadata
+customerCompany: "demo-todo"
+project: "main"
+versionName: "copper-alien"
+
+# nice to have metadata
+triggeredBySourceRepository: "git@github.com:VersionLens/version-lens-version-repository.git"
+triggeredBySourceRepositoryBranch: "origin/project/main"
+triggeredBySourceRepositoryCommit: "0f7946a7ebd2445c882ad6c23fb66c36c97b1678"
+
+# git clone
+# versionRepository: "git@github.com:VersionLens/version-lens-version.git"
+# versionRepositoryCommit: "0f7946a7ebd2445c882ad6c23fb66c36c97b1678"
+
+# argocd
+destinationClusterName: "demo-todo--main--copper-alien"

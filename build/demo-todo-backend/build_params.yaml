@@ -1,0 +1,13 @@
+image_params:
+    demo_todo_backend:
+        docker_build_context: ""
+        dockerfile_path: Dockerfile
+        image: versionlens/demo-todo-backend
+        registry: index.docker.io
+repo_dependencies:
+    demo_todo_backend:
+        branch: main
+        commit: 6d28b8e8fabde2848b60c5490843c6446e1c91d2
+        organisation: VersionLens
+        repository: demo-todo-backend
+        url: https://github.com/VersionLens/demo-todo-backend.git
