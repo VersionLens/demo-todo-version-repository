@@ -1,18 +1,18 @@
 {
-  "demo_todo_backend": {
-    "containerPort": 8000,
-    "image": "versionlens/demo-todo-backend",
-    "name": "demo-todo-backend",
-    "registry": "docker.io",
-    "replicas": 1,
-    "tag": "6d28b8e8fabde2848b60c5490843c6446e1c91d2"
-  },
-  "demo_todo_frontend": {
-    "containerPort": 5173,
-    "image": "versionlens/demo-todo-frontend",
-    "name": "demo-todo-frontend",
-    "registry": "docker.io",
-    "replicas": 1,
-    "tag": "efe88fe81e6738da83200f32cace867cc7f921ee"
-  }
+    "demo_todo_backend": {
+        "containerPort": 8000,
+        "image": "versionlens/demo-todo-backend",
+        "name": "demo-todo-backend",
+        "registry": "docker.io",
+        "replicas": 1,
+        "tag": "756063cffd625930e75b661432b7fc3946d5a8dd"
+    },
+    "demo_todo_frontend": {
+        "containerPort": 5173,
+        "image": "versionlens/demo-todo-frontend",
+        "name": "demo-todo-frontend",
+        "registry": "docker.io",
+        "replicas": 1,
+        "tag": "efe88fe81e6738da83200f32cace867cc7f921ee"
+    }
 }
