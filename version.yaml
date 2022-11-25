@@ -3,7 +3,7 @@ kind: Version
 
 # k8s metadata
 metadata:
-  name: version-lens--main--copper-alien
+  name: demo-todo--main--copper-alien
 
 # need to have metadata
 customerCompany: "demo-todo"
@@ -16,8 +16,8 @@ triggeredBySourceRepositoryBranch: "origin/project/main"
 triggeredBySourceRepositoryCommit: "0f7946a7ebd2445c882ad6c23fb66c36c97b1678"
 
 # git clone
-# versionRepository: "git@github.com:VersionLens/version-lens-version.git"
-# versionRepositoryCommit: "0f7946a7ebd2445c882ad6c23fb66c36c97b1678"
+versionRepository: "https://github.com/VersionLens/demo-todo-version-repository.git"
+versionRepositoryCommit: "5e7eb3acca23ba94a04d77a43312e90a95a2212c"
 
 # argocd
-destinationClusterName: "demo-todo--main--copper-alien"
+destinationClusterName: "demo-todo"
