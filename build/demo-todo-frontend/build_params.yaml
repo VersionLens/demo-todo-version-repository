@@ -7,7 +7,7 @@ image_params:
 repo_dependencies:
     demo_todo_frontend:
         branch: main
-        commit: b45d5d9a8665a1fc5710b864deca65cf97fa6eea
+        commit: b08c5381d062e74fcb525bf336d090141ceedb54
         organisation: VersionLens
         repository: demo-todo-frontend
         url: https://github.com/VersionLens/demo-todo-frontend.git
