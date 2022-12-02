@@ -1,0 +1,23 @@
+spec:
+  template:
+    spec:
+      volumes:
+      - name: code
+        emptyDir: {}
+      serviceAccountName: code-server
+      containers:
+      - name: demo-todo-backend
+        volumeMounts:
+        - name: code
+          mountPath: /code
+        command: ["sh", "-c", "cp -rv /app/* /code && cd /code && /code/docker-entrypoint.sh"]
+      - name: code-server
+        image: lscr.io/linuxserver/code-server:latest
+        volumeMounts:
+        - name: code
+          mountPath: /code
+        env:
+        - name: PUID
+          value: "0"
+        - name: PGID
+          value: "0"
