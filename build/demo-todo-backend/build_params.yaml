@@ -7,7 +7,7 @@ image_params:
 repo_dependencies:
     demo_todo_backend:
         branch: main
-        commit: 8925e75affea83c9de2638ec236eb6316ba8f177
+        commit: 142b56b046d32eef4dc159359cb29d54a4c02b98
         organisation: VersionLens
         repository: demo-todo-backend
         url: https://github.com/VersionLens/demo-todo-backend.git
