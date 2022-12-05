@@ -13,6 +13,6 @@
     "name": "demo-todo-frontend",
     "registry": "docker.io",
     "replicas": 1,
-    "tag": "9b492a6421080f9cafd7a853930c6979c1b9135a"
+    "tag": "61361766f2d28dd6756816884f24d29773698e1f"
   }
 }
