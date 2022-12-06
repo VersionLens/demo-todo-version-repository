@@ -1,0 +1,6 @@
+demo-todo-frontend:
+  - name: DEMO_TODO_FRONTEND_SHA
+    description: The commit hash of the demo-todo-frontend repo, e.g. ff58cc556269ede04ef6045465aafb2ed5747903
+demo-todo-backend:
+  - name: DEMO_TODO_BACKEND_SHA
+    description: The commit hash of the demo-todo-backend repo, e.g. 142b56b046d32eef4dc159359cb29d54a4c02b98

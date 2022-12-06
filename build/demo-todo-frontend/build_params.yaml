@@ -6,8 +6,5 @@ image_params:
         registry: index.docker.io
 repo_dependencies:
     demo_todo_frontend:
-        branch: main
-        commit: ff58cc556269ede04ef6045465aafb2ed5747903
-        organisation: VersionLens
-        repository: demo-todo-frontend
+        commit: $DEMO_TODO_FRONTEND_SHA
         url: https://github.com/VersionLens/demo-todo-frontend.git

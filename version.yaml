@@ -10,14 +10,16 @@ customerCompany: "demo-todo"
 project: "main"
 versionName: "copper-alien"
 
-# nice to have metadata
-triggeredBySourceRepository: "git@github.com:VersionLens/version-lens-version-repository.git"
-triggeredBySourceRepositoryBranch: "origin/project/main"
-triggeredBySourceRepositoryCommit: "0f7946a7ebd2445c882ad6c23fb66c36c97b1678"
-
 # git clone
 versionRepository: "https://github.com/VersionLens/demo-todo-version-repository.git"
 versionRepositoryCommit: "5e7eb3acca23ba94a04d77a43312e90a95a2212c"
 
 # argocd
 destinationClusterName: "demo-todo"
+
+# parameters
+params:
+  demo-todo-frontend:
+    DEMO_TODO_FRONTEND_SHA: ff58cc556269ede04ef6045465aafb2ed5747903
+  demo-todo-backend:
+    DEMO_TODO_BACKEND_SHA: 142b56b046d32eef4dc159359cb29d54a4c02b98
