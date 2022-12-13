@@ -7,4 +7,4 @@ image_params:
 repo_dependencies:
     demo_todo_frontend:
         commit: $DEMO_TODO_FRONTEND_SHA
-        url: https://github.com/VersionLens/demo-todo-frontend.git
+        url: $DEMO_TODO_FRONTEND_REPO_URL
