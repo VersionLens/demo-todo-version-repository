@@ -7,4 +7,4 @@ image_params:
 repo_dependencies:
     demo_todo_backend:
         commit: $DEMO_TODO_BACKEND_SHA
-        url: $DEMO_TODO_BACKEND_REPO_URL
+        url: https://github.com/VersionLens/demo-todo-backend.git
