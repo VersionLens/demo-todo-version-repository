@@ -2,7 +2,7 @@ image_params:
     demo_todo_backend:
         docker_build_context: ""
         dockerfile_path: Dockerfile
-        image: versionlens/demo-todo-backend
+        image: versionlens/demo-todo-backend-arm64
         registry: index.docker.io
 repo_dependencies:
     demo_todo_backend:

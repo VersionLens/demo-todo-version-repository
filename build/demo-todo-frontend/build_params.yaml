@@ -2,7 +2,7 @@ image_params:
     demo_todo_frontend:
         docker_build_context: ""
         dockerfile_path: Dockerfile
-        image: versionlens/demo-todo-frontend
+        image: versionlens/demo-todo-frontend-arm64
         registry: index.docker.io
 repo_dependencies:
     demo_todo_frontend:
