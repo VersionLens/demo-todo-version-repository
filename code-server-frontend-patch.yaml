@@ -1,0 +1,22 @@
+spec:
+  template:
+    spec:
+      volumes:
+      - name: code
+        emptyDir: {}
+      containers:
+      - name: demo-todo-frontend
+        volumeMounts:
+        - name: code
+          mountPath: /code
+        command: ["sh", "-c", "cp -rv /app/* /code && cd /code && npm run dev -- --host"]
+      - name: code-server
+        image: lscr.io/linuxserver/code-server:latest
+        volumeMounts:
+        - name: code
+          mountPath: /code
+        env:
+        - name: PUID
+          value: "0"
+        - name: PGID
+          value: "0"

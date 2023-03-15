@@ -1,4 +1,4 @@
-local params = import 'params.json';
+local params = import 'params.jsonnet';
 
 {
   apiVersion: 'apps/v1',
@@ -36,7 +36,7 @@ local params = import 'params.json';
             ],
             env: [
               {
-                name: "VERSION_URL",
+                name: 'VERSION_URL',
                 value: std.extVar('VERSION_URL'),
               },
             ],

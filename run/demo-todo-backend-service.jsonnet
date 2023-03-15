@@ -1,4 +1,4 @@
-local params = import 'params.json';
+local params = import 'params.jsonnet';
 
 {
   apiVersion: 'v1',
@@ -6,8 +6,8 @@ local params = import 'params.json';
   metadata: {
     name: params.demo_todo_backend.name,
     labels: {
-      "versionlens.com/version": std.extVar("VERSION_NAME")
-    }
+      'versionlens.com/version': std.extVar('VERSION_NAME'),
+    },
   },
   spec: {
     ports: [
